@@ -1,0 +1,98 @@
+/* CSS styles for index.html */
+
+/* Style for the container to center the content */
+.container {
+    height: 50vh;
+            width: 120vw;
+            font-size: 20px;
+            font-family: Times;
+            margin: 0px;
+            text-align: center;
+            color: white;* This ensures it covers the entire viewport height */
+}
+
+/* Style for the first <div> */
+.light-blue {
+    background-color: #007BFF; /* Intense blue color */
+    color: white; /* Whiteish color for letters */
+    padding: 20px;
+    text-align: center; /* Center-align the text */
+    
+}
+
+/* Style for the button container */
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Spacing between the buttons */
+}
+
+/* Style for the green button */
+.green-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 70%;
+    border-radius: 20px;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Style for the <h1> element within .light-blue */
+.light-blue h1 {
+    font-size: 24px;
+    color: #FFFFFF; /* White text color */
+    font-weight: bold;
+    padding-right: 70%;
+}
+
+/* Style for the <p> element within .light-blue */
+.light-blue p {
+    font-size: 16px;
+    color: #CCCCCC; /* Light gray text color */
+    margin-top: 10px;
+    padding-right:70% ; /* Add some top margin for spacing */
+}
+.flex-row {
+    flex-direction: row;
+}
+
+/* Target the second <a> tag within .button-container and change its position */
+.button-container a:nth-child(2) {
+    margin-right: 800px; /* Add left margin to move the second button to the right */
+}
+.underline {
+    border-bottom: 1px solid black;
+    
+  }
+
+.underline {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 300px;
+  }
+#my-paragraph {
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+  
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+    height: auto;
+}
+p {
+    text-align: center;
+}
+.underline {
+    text-align: center;
+}
